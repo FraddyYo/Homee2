@@ -18,9 +18,11 @@ public class Main {
                     System.out.println("Установите версию приложения для IOS по ссылке");
                     {
                         int year = 2021;
-                        if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) ;
-                        {
+                        if ((year % 400 != 0) || ((year % 4 != 0) && (year % 100 == 0))) {
                             System.out.println(" 2021 год не является високосным");
+                        } else {
+                            if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)));
+                            System.out.println("Год является високосным");
                         }
                         {
                             int deliveryDistance = 20;
