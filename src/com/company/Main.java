@@ -17,12 +17,12 @@ public class Main {
         if (clientDeviceYearAndroid <= 2015 && clientAndroid == 0) {
             System.out.println("Приложение будет работать корректно для Android");
         } else {
-            System.out.println("Установите версию приложения для Android по ссылке");
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
         if (clientDeviceYearIOS <= 2015 && clientIOS == 1) {
             System.out.println("Приложение будет работать корректно для IOS");
         } else {
-            System.out.println("Установите версию приложения для IOS по ссылке");
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
 
         // Задание 3
