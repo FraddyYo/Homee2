@@ -2,6 +2,14 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
+        // Задание 1
+        byte IOS = 0;
+        if (IOS == 1) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для IOS по ссылке");
+        }
+        // Задание 2
         int clientDeviceYearAndroid = 2012;
         int clientDeviceYearIOS = 2013;
         int clientIOS = 0;
@@ -15,13 +23,7 @@ public class Main {
             } else {
                 System.out.println("Установите версию приложения для IOS по ссылке");
             }
-            byte IOS = 0;
-
-            if (IOS == 1) {
-                System.out.println("Установите версию приложения для Android по ссылке");
-            } else {
-                System.out.println("Установите версию приложения для IOS по ссылке");
-            }
+            // Задание 3
             int year = 2021;
             if ((year % 400 != 0) || ((year % 4 != 0) && (year % 100 == 0))) {
                 System.out.println(" 2021 год не является високосным");
@@ -29,6 +31,7 @@ public class Main {
                 if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) ;
                 System.out.println("Год является високосным");
             }
+            // Задание 4
             int deliveryDistance = 20;
             if (deliveryDistance < 20) {
                 System.out.println("Доставка занимает сутки");
@@ -39,6 +42,7 @@ public class Main {
                     if (deliveryDistance > 20 && deliveryDistance > 60 && deliveryDistance >= 100) ;
                     System.out.println("Доставка еще на одни сутки больше");
                 }
+                // Задание 5
                 int monthNumber = 12;
                 switch (monthNumber) {
                     case 1:
@@ -68,6 +72,9 @@ public class Main {
         }
     }
 }
+
+
+
 
 
 
