@@ -11,21 +11,11 @@ public class Main {
             System.out.println("Установите версию приложения для IOS по ссылке");
         }
         // Задание 2
-        int clientDeviceYearAndroid = 2012;
-        int clientDeviceYearIOS = 2013;
-        int clientIOS = 0;
-        int clientAndroid = 1;
-        if (clientDeviceYearAndroid <= 2015 && clientAndroid == 0) {
-            System.out.println("Приложение будет работать корректно для Android");
-        } else {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        int clientDeviceYear = 2012;
+        int client = 0;
+        if (clientDeviceYear < 2015 && client == 0) {
+            System.out.println("Установите облегченную версию приложения для IOS по ссылке");
         }
-        if (clientDeviceYearIOS <= 2015 && clientIOS == 1) {
-            System.out.println("Приложение будет работать корректно для IOS");
-        } else {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        }
-
         // Задание 3
         int year = 2021;
         if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
@@ -73,6 +63,7 @@ public class Main {
         }
     }
 }
+
 
 
 
