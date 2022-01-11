@@ -4,8 +4,9 @@ public class Main {
     public static void main(String[] args) {
         // Задание 1
         byte IOS = 0;
+        byte Android = 1;
         if (IOS == 1) {
-            System.out.println("Установите версию приложения для Android по ссылке");
+            System.out.println("Установите версию приложения для IOS по ссылке");
         } else {
             System.out.println("Установите версию приложения для IOS по ссылке");
         }
@@ -35,12 +36,14 @@ public class Main {
 
         // Задание 4
         int deliveryDistance = 20;
-        int deliveryDays = 1;
-        if (deliveryDistance > 60 && deliveryDistance <= 100) {
-            deliveryDays++;
+        if (deliveryDistance <= 20) {
+            System.out.println("Потребуется 1 день доставки");
         }
-        if (deliveryDays++ < 20 && deliveryDays++ < 60 && deliveryDistance <= 100) ;
-        System.out.println(" Потребуется " + deliveryDays++ + " дня");
+        if (deliveryDistance <= 60 && deliveryDistance <= 100) {
+            System.out.println("Потребуется 2 дня доставки");
+        }
+        if (deliveryDistance > 20 && deliveryDistance < 60 && deliveryDistance <= 100) ;
+        System.out.println("Потребуется 3 дня доставки");
 
         // Задание 5
         int monthNumber = 12;
