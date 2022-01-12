@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Приложение будет работать корректно");
         } else if (clientDeviceYear < 2015 && client == 1) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
-        } else if (clientDeviceYear > 2015 && client == 1){
+        } else if (clientDeviceYear >= 2015 && client == 1){
             System.out.println("Приложение будет работать корректно");
         }
         // Задание 3
